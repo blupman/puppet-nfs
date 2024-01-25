@@ -209,7 +209,7 @@
 # * Daniel Klockenkaemper <mailto:dk@marketing-factory.de>
 #
 
-class nfs(
+class nfs (
   Enum['present', 'absent', 'running', 'stopped', 'disabled'] $ensure                 = 'present',
   Boolean $server_enabled                                                             = false,
   Boolean $client_enabled                                                             = false,
